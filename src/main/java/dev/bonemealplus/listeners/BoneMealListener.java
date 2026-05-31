@@ -73,7 +73,7 @@ public class BoneMealListener implements Listener {
                  SUNFLOWER, LILAC, ROSE_BUSH, PEONY,
                  PINK_PETALS, TORCHFLOWER, TORCHFLOWER_CROP,
                  PITCHER_CROP,
-                 SEA_GRASS, TALL_SEAGRASS,
+                 SEAGRASS, TALL_SEAGRASS,
                  COCOA -> true;
             default -> false;
         };
