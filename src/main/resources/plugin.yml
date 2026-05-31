@@ -1,0 +1,19 @@
+name: BoneMealPlus
+version: 1.0.0
+main: dev.bonemealplus.BoneMealPlus
+api-version: '1.21'
+description: Allows bone meal to be used on any plant
+author: BoneMealPlus
+commands:
+  bonemealplus:
+    description: Reload BoneMealPlus config
+    usage: /bonemealplus reload
+    aliases: [bmp]
+    permission: bonemealplus.admin
+permissions:
+  bonemealplus.use:
+    description: Allow using bone meal on all plants
+    default: true
+  bonemealplus.admin:
+    description: Allow reloading config
+    default: op

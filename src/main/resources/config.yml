@@ -1,0 +1,35 @@
+# BoneMealPlus Configuration
+
+# Chance (0.0 - 1.0) that bone meal will work on each plant type
+# 1.0 = 100% chance, 0.5 = 50% chance, etc.
+chances:
+  CACTUS: 0.45
+  SUGAR_CANE: 0.45
+  CHORUS_FLOWER: 0.45
+  NETHER_WART: 0.45
+  CRIMSON_FUNGUS: 0.65
+  WARPED_FUNGUS: 0.65
+  BROWN_MUSHROOM: 0.40
+  RED_MUSHROOM: 0.40
+  KELP: 0.55
+  SEA_PICKLE: 0.55
+  VINE: 0.50
+  TWISTING_VINES: 0.50
+  WEEPING_VINES: 0.50
+  CAVE_VINES: 0.50
+  BAMBOO: 0.60
+  SWEET_BERRY_BUSH: 0.55
+  DEFAULT: 0.45
+
+# How many growth stages to advance on success (1 = one stage, 2 = two stages, etc.)
+# For non-age plants (cactus, sugar cane, vine) this means extra blocks added
+growth-stages: 1
+
+# Show particles when bone meal is applied
+show-particles: true
+
+# Consume bone meal on use (set false for infinite bone meal - for testing only)
+consume-bone-meal: true
+
+# Enable debug logging
+debug: false
